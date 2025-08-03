@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Test OIDC App</title>
+    </head>
+    <body>
+        Hello World
+        {% if logged_in %}
+        <div>
+            You're logged in!
+        </div>
+        {% endif %}
+        <div>
+            <a href="/protected">Protected Resource</a>
+        </div>
+    </body>
+</html>
