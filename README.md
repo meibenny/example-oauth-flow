@@ -1,4 +1,4 @@
-# Example OIDC Flow with Keycloak
+# Example OAuth Flow with Keycloak
 
 ## Run
 1. `docker compose up`
